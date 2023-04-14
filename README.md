@@ -1,2 +1,2 @@
 # Curso_HTML_Bradesco
-Curso na Fundação Bradesco referente a HTML avançado
+Curso na Fundação Bradesco referente a HTML avançado e CSS.
