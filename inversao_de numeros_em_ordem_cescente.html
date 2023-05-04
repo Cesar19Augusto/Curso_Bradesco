@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenando numeros com If</title>
+</head>
+<body>
+    <h1>Ordem crescente</h1>
+    <script language="JavaScript">
+        var js_n1;
+        var js_n2;
+        var js_n3;
+    js_n1= parseInt(window.prompt("Digite o primeiro numero : ", "00"));
+    js_n2= parseInt(window.prompt("Digite o segundo numero : ", "00"));
+
+    document.write("O primeiro numero digitado é : " + js_n1);
+    document.write("<br>O segundo numero digitado é : " + js_n2);
+
+    if (js_n1 > js_n2) 
+    {
+        js_n3 = js_n1;
+        js_n1 = js_n2;
+        js_n2 = js_n3;
+    
+    }
+    document.write("<br>A ordem dos numeros de forma crescente é :" +js_n1 + " , " +js_n2);
+    </script>
+</body>
+</html>
